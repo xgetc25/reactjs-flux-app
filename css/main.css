@@ -1,0 +1,90 @@
+#app {
+	padding: 0 25px;
+	max-width: 650px;
+}
+
+
+
+
+/* camera styles */
+.camera {
+	border: 1px solid gray;
+	clear: both;
+	overflow: hidden;
+	position: relative;
+}
+
+.camera-picture-block {
+	float: left;
+	width: 200px;
+	height: 150px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.camera-picture {
+	max-height: 100%;
+	display: block;
+}
+.camera-info {
+	float: left;
+	width: 300px;
+	overflow: hidden;
+	padding: 15px 10px;
+}
+.camera-actions {
+	float: left;
+	padding: 15px;
+}
+
+.camera-button {
+	float: left;
+}
+.controls {
+	clear: both;
+	padding: 25px;
+}
+.to-top-button,
+.more-button {
+	padding: 10px;
+}
+
+.camera .close {
+	display: none;
+	position: absolute;
+	cursor: pointer;
+	left: 10px;
+	top: 10px;
+	padding: 5px;
+	font-size: 24px;
+	background: #ccc;
+}
+.camera.expanded .close{
+	display: block;
+}
+.more-button { float: right}
+
+.add-to-favorites {
+	font-size: 72px;height: 60px;
+}
+.camera.favorite {
+	border: 1px solid yellow;
+}
+
+.favorite .add-to-favorites {
+	color: yellow;
+}
+
+.expanded .camera-picture-block {
+	width: 100%;
+	height: auto;
+	cursor: auto;
+}
+
+.expanded .camera-picture {
+	max-width: 100%;
+	width: auto;
+	max-height: auto;
+}
+
+
+
