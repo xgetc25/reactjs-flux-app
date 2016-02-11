@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom')
 
 var api = require('./api');
 var Store = require('./CamerasStore')
-var Cameras = require('./Cameras')
+var Cameras = require('./components/Cameras')
 
 
 
